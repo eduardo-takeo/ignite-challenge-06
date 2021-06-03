@@ -1,4 +1,5 @@
 import { Divider, Flex, Heading } from "@chakra-ui/react";
+import { ContinentSwiper } from "../components/ContinentSwiper";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { TravelTypes } from "../components/TravelTypes";
@@ -10,13 +11,19 @@ export default function Home() {
       <Hero />
       <TravelTypes />
       <Divider />
-      <Heading mx="auto" textAlign="center" my="16">
+      <Heading
+        mx="auto"
+        textAlign="center"
+        my="16"
+        fontSize={["20", "28", "36"]}
+      >
         Vamos nessa? <br />
         Então escolha seu continente
       </Heading>
+      <ContinentSwiper />
     </Flex>
   );
 }
 
 //TODO:
-// - Add divider
+//* Add divider
