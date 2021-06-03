@@ -18,6 +18,3 @@ export function TravelTypes() {
     </Flex>
   );
 }
-
-//TODO:
-// - Add divider
