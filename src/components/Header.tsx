@@ -14,10 +14,13 @@ export function Header() {
         <Link href="/">
           <ChevronLeftIcon fontSize={30} />
         </Link>
-        <Image src="/logo.svg" alt="Logo" w="44" />
-        {/* TODO: See a better way to style */}
+        <Image src="/icons/logo.svg" alt="Logo" w="44" />
         <Box />
       </Flex>
     </Flex>
   );
 }
+
+//TODO:
+//* Add link to icon
+//* Hide back button when current page is Home

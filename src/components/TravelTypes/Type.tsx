@@ -23,7 +23,7 @@ export function Type({ title, imageSrc, imageAlt = title }: TypeProps) {
 
   return (
     <Flex align="center" p="8">
-      <Image src="/ellipse.svg" alt={imageAlt} h="4" mr="4" />
+      <Image src="/icons/ellipse.svg" alt={imageAlt} h="4" mr="4" />
       <Heading fontSize="18">{title}</Heading>
     </Flex>
   );
