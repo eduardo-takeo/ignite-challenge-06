@@ -1,0 +1,42 @@
+{
+  "africa": {
+    "name": "África",
+    "backgroundUrl": "http://www.google.com.br",
+    "description": "A África blablablablablablablablablablablablablablablablablablablablablablablabla",
+    "countries": 50,
+    "languages": 60,
+    "cities": 27,
+    "mostVisitedCities": [
+      {
+        "name": "Londres",
+        "originCountry": "Reino Unido",
+        "thumbnail": "http://www.google.com.br",
+        "flagIcon": "https://flagcdn.com/w20/za.png"
+      },
+      {
+        "name": "Londres",
+        "originCountry": "Reino Unido",
+        "thumbnail": "http://www.google.com.br",
+        "flagIcon": "https://flagcdn.com/w20/za.png"
+      },
+      {
+        "name": "Londres",
+        "originCountry": "Reino Unido",
+        "thumbnail": "http://www.google.com.br",
+        "flagIcon": "https://flagcdn.com/w20/za.png"
+      },
+      {
+        "name": "Londres",
+        "originCountry": "Reino Unido",
+        "thumbnail": "http://www.google.com.br",
+        "flagIcon": "https://flagcdn.com/w20/za.png"
+      },
+      {
+        "name": "Londres",
+        "originCountry": "Reino Unido",
+        "thumbnail": "http://www.google.com.br",
+        "flagIcon": "https://flagcdn.com/w20/za.png"
+      }
+    ]
+  }
+}
