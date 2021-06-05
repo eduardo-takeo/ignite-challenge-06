@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { Divider, Flex, Heading } from "@chakra-ui/react";
-import { ContinentSwiper } from "../components/ContinentSwiper";
+import { ContinentSwiper } from "../components/Home/ContinentSwiper";
 import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { TravelTypes } from "../components/TravelTypes";
+import { Hero } from "../components/Home/Hero";
+import { TravelTypes } from "../components/Home/TravelTypes";
 
 export default function Home() {
   return (

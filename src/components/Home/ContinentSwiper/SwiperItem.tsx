@@ -1,5 +1,5 @@
 import { Box, Heading, Image, Link, Text, VStack } from "@chakra-ui/react";
-import { normalizeString } from "../../utils";
+import { normalizeString } from "../../../utils";
 
 interface SwiperItemProps {
   title: string;
