@@ -4,8 +4,21 @@ import { ContinentSwiper } from "../components/Home/ContinentSwiper";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Home/Hero";
 import { TravelTypes } from "../components/Home/TravelTypes";
+import { GetStaticProps } from "next";
+import { api } from "../services/api";
 
-export default function Home() {
+interface HomeProps {
+  continents: Continent[];
+}
+
+interface Continent {
+  id: number;
+  title: string;
+  subtitle: string;
+  backgroundUrl: string;
+}
+
+export default function Home({ continents }: HomeProps) {
   return (
     <>
       <Head>
@@ -26,11 +39,21 @@ export default function Home() {
           Vamos nessa? <br />
           Então escolha seu continente
         </Heading>
-        <ContinentSwiper />
+        <ContinentSwiper continents={continents} />
       </Flex>
     </>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const response = await api.get("/continents");
+  const continents = response.data;
+
+  return {
+    props: { continents },
+    revalidate: 60 * 60 * 24,
+  };
+};
 
 //TODO:
 //* Add divider

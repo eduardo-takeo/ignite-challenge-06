@@ -1,0 +1,214 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "title": "África",
+      "subtitle": "O berço da civilização humana",
+      "backgroundUrl": "/africa.jpg",
+      "description": "A África blablablablablablablablablablablablablablablablablablablablablablablabla",
+      "countries": 50,
+      "languages": 60,
+      "cities": 27,
+      "mostVisitedCities": [
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "América",
+      "subtitle": "Música, sabores e belas paisagens naturais",
+      "backgroundUrl": "/america.jpg",
+      "description": "A América blablablablablablablablablablablablablablablablablablablablablablablabla",
+      "countries": 70,
+      "languages": 20,
+      "cities": 15,
+      "mostVisitedCities": [
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ásia",
+      "subtitle": "O maior continente",
+      "backgroundUrl": "/asia.jpg",
+      "description": "A Ásia blablablablablablablablablablablablablablablablablablablablablablablabla",
+      "countries": 70,
+      "languages": 20,
+      "cities": 15,
+      "mostVisitedCities": [
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Europa",
+      "subtitle": "O continente mais antigo",
+      "backgroundUrl": "/europe.jpg",
+      "description": "A Europa blablablablablablablablablablablablablablablablablablablablablablablabla",
+      "countries": 70,
+      "languages": 20,
+      "cities": 15,
+      "mostVisitedCities": [
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Oceania",
+      "subtitle": "Natureza exuberante e diversidade cultural",
+      "backgroundUrl": "/oceania.jpg",
+      "description": "A Oceania blablablablablablablablablablablablablablablablablablablablablablablabla",
+      "countries": 70,
+      "languages": 20,
+      "cities": 15,
+      "mostVisitedCities": [
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        },
+        {
+          "name": "Londres",
+          "originCountry": "Reino Unido",
+          "thumbnail": "http://www.google.com.br",
+          "flagIcon": "https://flagcdn.com/w20/za.png"
+        }
+      ]
+    }
+  ]
+}

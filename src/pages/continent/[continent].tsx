@@ -79,4 +79,3 @@ export default function Continent() {
 
 //TODO:
 //* Consume data from API
-//* Responsiveness adjustments

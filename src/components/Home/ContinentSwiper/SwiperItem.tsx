@@ -1,7 +1,7 @@
 import { Box, Heading, Image, Link, Text, VStack } from "@chakra-ui/react";
-import { normalizeString } from "../../../utils";
 
 interface SwiperItemProps {
+  id: number;
   title: string;
   description: string;
   imageSrc: string;
@@ -9,6 +9,7 @@ interface SwiperItemProps {
 }
 
 export function SwiperItem({
+  id,
   title,
   description,
   imageSrc,
@@ -32,7 +33,7 @@ export function SwiperItem({
         transform="translate(-50%, -50%)"
         textAlign="center"
       >
-        <Link href={`/continent/${normalizeString(title)}`}>
+        <Link href={`/continent/${id}`}>
           <Heading fontSize={[24, 32, 48]}>{title}</Heading>
           <Text fontSize={[14, 18, 24]}>{description}</Text>
         </Link>
