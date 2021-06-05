@@ -12,7 +12,7 @@ interface HomeProps {
 }
 
 interface Continent {
-  id: number;
+  id: string;
   title: string;
   subtitle: string;
   backgroundUrl: string;

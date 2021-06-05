@@ -1,7 +1,7 @@
 import { Box, Heading, Image, Link, Text, VStack } from "@chakra-ui/react";
 
 interface SwiperItemProps {
-  id: number;
+  id: string;
   title: string;
   description: string;
   imageSrc: string;

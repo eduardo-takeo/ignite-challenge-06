@@ -5,8 +5,43 @@ import { Header } from "../../components/Header";
 import { Hero } from "../../components/Continent/Hero";
 import { ContinentData } from "../../components/Continent/ContinentData";
 import { Card } from "../../components/Continent/Card";
+import { GetStaticPaths, GetStaticProps } from "next";
+import { api } from "../../services/api";
 
-export default function Continent() {
+interface ContinentProps {
+  continent: Continent;
+}
+
+interface Continent {
+  id: string;
+  title: string;
+  backgroundUrl: string;
+  description: string;
+  countries: number;
+  cities: number;
+  languages: number;
+  mostVisitedCities: mostVisitedCity[];
+}
+
+interface mostVisitedCity {
+  id: string;
+  name: string;
+  originCountry: string;
+  thumbnail: string;
+  flagIcon: string;
+}
+
+export default function Continent({ continent }: ContinentProps) {
+  const {
+    id,
+    title,
+    backgroundUrl,
+    description,
+    countries,
+    cities,
+    languages,
+    mostVisitedCities,
+  } = continent;
   const router = useRouter();
   const isWidescreen = useBreakpointValue({
     base: false,
@@ -16,19 +51,14 @@ export default function Continent() {
   return (
     <>
       <Head>
-        <title>worldtrip | Africa</title>
+        <title>worldtrip | {title}</title>
       </Head>
 
       <Header />
       <Box>
-        <Hero title="Europa" imageUrl="/europe.jpg" />
+        <Hero title={title} imageUrl={backgroundUrl} />
 
-        <ContinentData
-          description="A Europa é, por convenção, um dos seis continentes do mundo.
-            Compreendendo a península ocidental da Eurásia, a Europa geralmente
-            divide-se da Ásia a leste pela divisória de águas dos montes Urais,
-            o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste"
-        />
+        <ContinentData description={description} />
 
         <Box as="section" maxWidth={1280} mx="auto" px="8">
           <Heading mb="8">Cidades 100+</Heading>
@@ -76,6 +106,31 @@ export default function Continent() {
     </>
   );
 }
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [
+      { params: { continent: "1" } },
+      { params: { continent: "2" } },
+      { params: { continent: "3" } },
+      { params: { continent: "4" } },
+      { params: { continent: "5" } },
+    ],
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const continentId = params.continent;
+  const response = await api.get(`/continents/${continentId}`);
+
+  const continent = response.data;
+
+  return {
+    props: { continent },
+    revalidate: 60 * 60 * 24,
+  };
+};
 
 //TODO:
 //* Consume data from API
