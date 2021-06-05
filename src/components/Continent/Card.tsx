@@ -21,6 +21,7 @@ export function Card({ city, country, imageUrl, iconUrl }: CardProps) {
         src={imageUrl}
         alt="image"
         w="100%"
+        maxHeight="44"
         borderTopLeftRadius={8}
         borderTopRightRadius={8}
       />

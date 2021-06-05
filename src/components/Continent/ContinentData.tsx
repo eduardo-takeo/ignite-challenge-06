@@ -3,9 +3,17 @@ import { Info } from "./Info";
 
 interface ContinentDataProps {
   description: string;
+  countries: number;
+  languages: number;
+  cities: number;
 }
 
-export function ContinentData({ description }: ContinentDataProps) {
+export function ContinentData({
+  description,
+  countries,
+  languages,
+  cities,
+}: ContinentDataProps) {
   const isWidescreen = useBreakpointValue({
     base: false,
     md: true,
@@ -26,10 +34,10 @@ export function ContinentData({ description }: ContinentDataProps) {
       </Text>
       <Flex flex="1" align="center" justify="center">
         <HStack spacing="8">
-          <Info number={50} label="países" />
-          <Info number={60} label="línguas" />
+          <Info number={countries} label="países" />
+          <Info number={languages} label="línguas" />
           <Info
-            number={27}
+            number={cities}
             label="cidades 100+"
             tooltip="Número de cidades nesse continente dentre as 100 cidades mais visitadas no mundo"
           />

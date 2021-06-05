@@ -5,39 +5,44 @@
       "title": "África",
       "subtitle": "O berço da civilização humana",
       "backgroundUrl": "/africa.jpg",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo.Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "countries": 50,
-      "languages": 60,
-      "cities": 27,
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "countries": 54,
+      "languages": 1250,
+      "cities": 12,
       "mostVisitedCities": [
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
+          "id": "1",
+          "name": "Cairo",
+          "originCountry": "Egito",
+          "thumbnail": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/eg.png"
+        },
+        {
+          "id": "2",
+          "name": "Joanesburgo",
+          "originCountry": "África do sul",
+          "thumbnail": "https://images.unsplash.com/photo-1552937075-967cf58b74a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
           "flagIcon": "https://flagcdn.com/w20/za.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "3",
+          "name": "Marrakesh",
+          "originCountry": "Marrocos",
+          "thumbnail": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80",
+          "flagIcon": "https://flagcdn.com/w20/ma.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "4",
+          "name": "Hurghada",
+          "originCountry": "Egito",
+          "thumbnail": "https://images.unsplash.com/photo-1584116527337-4b38a93cdc01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+          "flagIcon": "https://flagcdn.com/w20/eg.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
-        },
-        {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
+          "id": "5",
+          "name": "Cidade do Cabo",
+          "originCountry": "África do sul",
+          "thumbnail": "https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
           "flagIcon": "https://flagcdn.com/w20/za.png"
         }
       ]
@@ -47,40 +52,45 @@
       "title": "América",
       "subtitle": "Música, sabores e belas paisagens naturais",
       "backgroundUrl": "/america.jpg",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo.Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "countries": 70,
-      "languages": 20,
-      "cities": 15,
+      "description": "O turismo na América do Sul é uma das áreas que mais cresce na economia do continente. Com a maior floresta tropical do mundo, o maior rio do mundo, monumentos naturais, praias paradisíacas, desertos e paisagens glaciais, a América do Sul atrai turistas de todo o mundo.",
+      "countries": 35,
+      "languages": 8,
+      "cities": 13,
       "mostVisitedCities": [
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "1",
+          "name": "Nova Iorque",
+          "originCountry": "Estados Unidos",
+          "thumbnail": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/us.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "2",
+          "name": "Miami",
+          "originCountry": "Estados Unidos",
+          "thumbnail": "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/us.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "3",
+          "name": "Los Angeles",
+          "originCountry": "Estados Unidos",
+          "thumbnail": "https://images.unsplash.com/photo-1518540329668-417feba873ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/us.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "4",
+          "name": "Las Vegas",
+          "originCountry": "Estados Unidos",
+          "thumbnail": "https://images.unsplash.com/photo-1470076892663-af684e5e15af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=917&q=80",
+          "flagIcon": "https://flagcdn.com/w20/us.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "5",
+          "name": "Cancún",
+          "originCountry": "México",
+          "thumbnail": "https://images.unsplash.com/photo-1617200645924-20d20ed1b2d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+          "flagIcon": "https://flagcdn.com/w20/mx.png"
         }
       ]
     },
@@ -89,40 +99,45 @@
       "title": "Ásia",
       "subtitle": "O maior continente",
       "backgroundUrl": "/asia.jpg",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo.Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "description": "A Ásia é o maior de todos os continentes, com culturas, idiomas, clima e paisagens impressionantes, que rendem belas fotos. O lugar é apaixonante e o povo é extremamente receptivo e hospitaleiro. A história, as tradições e a gastronomia são os seus principais destaques.",
       "countries": 70,
-      "languages": 20,
-      "cities": 15,
+      "languages": 2300,
+      "cities": 43,
       "mostVisitedCities": [
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "1",
+          "name": "Hong Kong",
+          "originCountry": "Hong Kong",
+          "thumbnail": "https://images.unsplash.com/photo-1506970845246-18f21d533b20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/hk.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "2",
+          "name": "Bangkok",
+          "originCountry": "Tailândia",
+          "thumbnail": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+          "flagIcon": "https://flagcdn.com/w20/th.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "3",
+          "name": "Macau",
+          "originCountry": "China",
+          "thumbnail": "https://images.unsplash.com/photo-1567225299676-9ebaa1d8b28f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/mo.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "4",
+          "name": "Singapura",
+          "originCountry": "Indonésia",
+          "thumbnail": "https://images.unsplash.com/photo-1565967511849-76a60a516170?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+          "flagIcon": "https://flagcdn.com/w20/id.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "5",
+          "name": "Kuala Lumpur",
+          "originCountry": "Malásia",
+          "thumbnail": "https://images.unsplash.com/photo-1592723905426-1181bf431d3a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80",
+          "flagIcon": "https://flagcdn.com/w20/my.png"
         }
       ]
     },
@@ -133,38 +148,43 @@
       "backgroundUrl": "/europe.jpg",
       "description": "A Europa é, por convenção, um dos seis continentes do mundo.Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
       "countries": 70,
-      "languages": 20,
-      "cities": 15,
+      "languages": 60,
+      "cities": 32,
       "mostVisitedCities": [
         {
+          "id": "1",
           "name": "Londres",
           "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "thumbnail": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/gb.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "2",
+          "name": "Paris",
+          "originCountry": "França",
+          "thumbnail": "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/fr.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "3",
+          "name": "Roma",
+          "originCountry": "Itália",
+          "thumbnail": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80",
+          "flagIcon": "https://flagcdn.com/w20/it.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "4",
+          "name": "Praga",
+          "originCountry": "Repúblia Tcheca",
+          "thumbnail": "https://images.unsplash.com/photo-1616038242814-a6eac7845d88?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/cz.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "5",
+          "name": "Amsterdam",
+          "originCountry": "Holanda",
+          "thumbnail": "https://images.unsplash.com/photo-1459679749680-18eb1eb37418?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/nl.png"
         }
       ]
     },
@@ -173,40 +193,31 @@
       "title": "Oceania",
       "subtitle": "Natureza exuberante e diversidade cultural",
       "backgroundUrl": "/oceania.jpg",
-      "description": "A Europa é, por convenção, um dos seis continentes do mundo.Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "countries": 70,
-      "languages": 20,
-      "cities": 15,
+      "description": "Com 14 Estados independentes, milhares de ilhas e uma biodiversidade bem distribuída, a Oceania deixou no passado a ideia de que “o outro lado do mundo” só possui a Austrália e a Nova Zelândia como seus principais representantes turísticos.",
+      "countries": 16,
+      "languages": 18,
+      "cities": 3,
       "mostVisitedCities": [
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "1",
+          "name": "Sydney",
+          "originCountry": "Austrália",
+          "thumbnail": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flagIcon": "https://flagcdn.com/w20/au.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "2",
+          "name": "Melbourne",
+          "originCountry": "Austrália",
+          "thumbnail": "https://images.unsplash.com/photo-1545044846-351ba102b6d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+          "flagIcon": "https://flagcdn.com/w20/au.png"
         },
         {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
-        },
-        {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
-        },
-        {
-          "name": "Londres",
-          "originCountry": "Reino Unido",
-          "thumbnail": "http://www.google.com.br",
-          "flagIcon": "https://flagcdn.com/w20/za.png"
+          "id": "3",
+          "name": "Auckland",
+          "originCountry": "Nova Zelândia",
+          "thumbnail": "https://images.unsplash.com/photo-1618130075625-36e167d7c9aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+          "flagIcon": "https://flagcdn.com/w20/nz.png"
         }
       ]
     }

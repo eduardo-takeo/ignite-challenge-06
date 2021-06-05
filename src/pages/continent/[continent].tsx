@@ -58,7 +58,12 @@ export default function Continent({ continent }: ContinentProps) {
       <Box>
         <Hero title={title} imageUrl={backgroundUrl} />
 
-        <ContinentData description={description} />
+        <ContinentData
+          description={description}
+          countries={countries}
+          languages={languages}
+          cities={cities}
+        />
 
         <Box as="section" maxWidth={1280} mx="auto" px="8">
           <Heading mb="8">Cidades 100+</Heading>
@@ -66,40 +71,17 @@ export default function Continent({ continent }: ContinentProps) {
             spacing={isWidescreen ? "16" : "8"}
             justify={isWidescreen ? "flex-start" : "center"}
           >
-            <Card
-              city="Londres"
-              country="Reino Unido"
-              imageUrl="/asia.jpg"
-              iconUrl="/icons/modern.svg"
-            />
-
-            <Card
-              city="Londres"
-              country="Reino Unido"
-              imageUrl="/asia.jpg"
-              iconUrl="/icons/modern.svg"
-            />
-
-            <Card
-              city="Londres"
-              country="Reino Unido"
-              imageUrl="/asia.jpg"
-              iconUrl="/icons/modern.svg"
-            />
-
-            <Card
-              city="Londres"
-              country="Reino Unido"
-              imageUrl="/asia.jpg"
-              iconUrl="/icons/modern.svg"
-            />
-
-            <Card
-              city="Londres"
-              country="Reino Unido"
-              imageUrl="/asia.jpg"
-              iconUrl="/icons/modern.svg"
-            />
+            {mostVisitedCities?.map(
+              ({ id, name, originCountry, thumbnail, flagIcon }) => (
+                <Card
+                  key={id}
+                  city={name}
+                  country={originCountry}
+                  imageUrl={thumbnail}
+                  iconUrl={flagIcon}
+                />
+              )
+            )}
           </Wrap>
         </Box>
       </Box>
