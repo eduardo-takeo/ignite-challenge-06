@@ -21,7 +21,7 @@ export function ContinentData({ description }: ContinentDataProps) {
       direction={isWidescreen ? "row" : "column"}
       justify="space-between"
     >
-      <Text fontSize="24" flex="1">
+      <Text fontSize={["18", "24"]} flex="1" mb={isWidescreen ? "" : "8"}>
         {description}
       </Text>
       <Flex flex="1" align="center" justify="center">

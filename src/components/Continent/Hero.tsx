@@ -18,7 +18,7 @@ export function Hero({ title, imageUrl }: HeroProps) {
       backgroundRepeat="no-repeat"
       backgroundPosition="center"
       backgroundSize="cover"
-      h={["150", "300", "500"]}
+      h={["300", "300", "500"]}
       align={isWidescreen ? "flex-end" : "center"}
       justify={isWidescreen ? "flex-start" : "center"}
     >

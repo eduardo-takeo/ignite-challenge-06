@@ -10,10 +10,10 @@ interface InfoProps {
 export function Info({ number, label, tooltip = null }) {
   return (
     <Box textAlign="center">
-      <Heading fontSize="48" color="yellow.800">
+      <Heading fontSize={["32", "32", "48"]} color="yellow.800">
         {number}
       </Heading>
-      <Heading fontSize="24">
+      <Heading fontSize={["18", "18", "18", "24"]}>
         {label}
         {tooltip && (
           <Tooltip label={tooltip}>
